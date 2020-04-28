@@ -82,4 +82,5 @@ if __name__ == "__main__":
         a = nextIntArr(nextInt())
         res = solve(a)
         print(res)
-        sys.stdout.flush()
+
+    sys.stdout.flush()
