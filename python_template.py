@@ -79,5 +79,7 @@ if __name__ == "__main__":
         doStressTest()
     else:
         ### Read input here
-        solve(...)
+        a = nextIntArr(nextInt())
+        res = solve(a)
+        print(res)
         sys.stdout.flush()
